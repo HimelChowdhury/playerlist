@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(157, 186, 202);
+}
+.main{
+    width: 100%;
+    height: 300px;
+   display: flex;
+   margin: 5px;
+   padding: 10px;
+  
+}
+.his-desails{
+position: absolute;
+right: 120px;
+top: 500px;
+}

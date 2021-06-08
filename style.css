@@ -1,0 +1,61 @@
+
+body{
+   background-color: blue;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 255, 42);
+    border: 2px solid black;
+    margin: 45px;
+    background-color: darkslategray;
+}
+.pic{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3x 0px;
+    background-color:rgb(161, 150, 150);
+    
+}
+.navigation ul li{
+    display: inline-block;
+   margin: 20px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(31, 30, 31);
+    font: bold;
+}
+.navigation ul li a:hover{
+    color: red;
+    background-color: rgb(155, 149, 149);
+    padding: 6px;
+    border-radius: 5px;
+
+}
+.p2{
+    height: 200px;
+    width: 200px;
+}
+.player{
+    width: 350px;
+    border: 2px solid rgb(13, 0, 128);
+    text-align: center;
+    padding: 20px 30px;
+background-color: rgb(207, 204, 204);
+margin: 35px;
+float: left;
+}
+.atg{
+    text-decoration: none;
+}
+.atg:hover{
+    color: red;
+    cursor: pointer;
+}
